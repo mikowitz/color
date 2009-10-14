@@ -1,12 +1,12 @@
-h1. color
+= color
 
 "github.com/mikowitz/color":http://www.github.com/mikowitz/color
 
-h2. Description
+== Description
 
 A simple, flexible gem that provides an open-ended API to print colored and styled output in a terminal.
 
-h2. Usage examples
+== Usage examples
 
 The following are all methods that <code>Color</code> understands, and should give you an idea of what is possible.
 
@@ -15,6 +15,6 @@ The following are all methods that <code>Color</code> understands, and should gi
 * <code>Color.bold("this will be bold")</code>
 * <code>Color.underline_blue_on_yellow("this will be underlined blue text on a yellow background")</code>
 
-h2. Copyright
+== Copyright
 
 Copyright (c) 2009 Michael Berkowitz. See LICENSE for details.
