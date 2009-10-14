@@ -1,6 +1,6 @@
 = color
 
-github.com/mikowitz/color
+http://github.com/mikowitz/color
 
 == Description
 
