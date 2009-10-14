@@ -1,7 +1,20 @@
-= color
+h1. color
 
-A small gem to provide colored/styled output in the terminal.
+"github.com/mikowitz/color":http://www.github.com/mikowitz/color
 
-== Copyright
+h2. Description
+
+A simple, flexible gem that provides an open-ended API to print colored and styled output in a terminal.
+
+h2. Usage examples
+
+The following are all methods that <code>Color</code> understands, and should give you an idea of what is possible.
+
+* <code>Color.blue("this will be printed as blue text")</code>
+* <code>Color.on_red("this will be printed on a red background")</code>
+* <code>Color.bold("this will be bold")</code>
+* <code>Color.underline_blue_on_yellow("this will be underlined blue text on a yellow background")</code>
+
+h2. Copyright
 
 Copyright (c) 2009 Michael Berkowitz. See LICENSE for details.

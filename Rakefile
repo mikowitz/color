@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "color"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A small gem to provide colored/styled output in the terminal.}
+    gem.description = %Q{A simple, flexible gem that provides an open-ended API to print colored and styled output in a terminal.}
     gem.email = "michael.berkowitz@gmail.com"
     gem.homepage = "http://github.com/mikowitz/color"
     gem.authors = ["Michael Berkowitz"]
@@ -23,6 +23,7 @@ require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']
+  spec.spec_opts = ["-cfs"]
 end
 
 Spec::Rake::SpecTask.new(:rcov) do |spec|
