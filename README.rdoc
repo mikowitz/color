@@ -1,6 +1,6 @@
 = color
 
-"github.com/mikowitz/color":http://www.github.com/mikowitz/color
+github.com/mikowitz/color
 
 == Description
 
