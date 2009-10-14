@@ -20,7 +20,6 @@ module Color
   def self.io; $stderr; end
   
   def self.method_missing(method, string, newline=true)
-    # string = args.first
     io.write prepare_string(string, *parse_method_name(method)) + " "
     io.flush
     puts if newline

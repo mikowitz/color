@@ -32,6 +32,11 @@ Spec::Rake::SpecTask.new(:rcov) do |spec|
   spec.rcov = true
 end
 
+desc "'Proof is the bottom line for everyone' -- Paul Simon"
+task :proof do
+  system "ruby spec/term_test.rb"
+end
+
 task :spec => :check_dependencies
 
 task :default => :spec

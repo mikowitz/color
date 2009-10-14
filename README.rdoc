@@ -1,5 +1,7 @@
 = color
 
+=== current version : 0.1.1
+
 http://github.com/mikowitz/color
 
 == Description
@@ -10,10 +12,20 @@ A simple, flexible gem that provides an open-ended API to print colored and styl
 
 The following are all methods that <code>Color</code> understands, and should give you an idea of what is possible.
 
-* <code>Color.blue("this will be printed as blue text")</code>
-* <code>Color.on_red("this will be printed on a red background")</code>
-* <code>Color.bold("this will be bold")</code>
-* <code>Color.underline_blue_on_yellow("this will be underlined blue text on a yellow background")</code>
+  Color.blue("this will be printed as blue text")
+  Color.on_red("this will be printed on a red background")
+  Color.bold("this will be bold")
+  Color.underline_blue_on_yellow("this will be underlined blue text on a yellow background")
+
+The order of elements in the method name is also unimportant. For example
+
+  Color.bold_underline_blue_on_yellow("This should be formatted the same as the line below")
+
+will look the same as
+
+  Color.on_yellow_bold_blue_underline("This should be formatted the same as the line above")
+
+Check out <code>"spec/term_test.rb"</code> and <code>`rake proof`</code> if you don't believe me.
 
 == Copyright
 
