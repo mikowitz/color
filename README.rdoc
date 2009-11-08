@@ -8,7 +8,19 @@ http://github.com/mikowitz/color
 
 A simple, flexible gem that provides an open-ended API to print colored and styled output in a terminal.
 
+== Installation
+
+Install the gemcutter gem
+  ~$ gem install gemcutter
+Add gemcutter.org to your gem remote sources
+  ~$ gem tumble
+Download and install this gem
+  ~$ gem install mikowitz-color
+
 == Usage examples
+
+To include this gem in a project
+  require 'mikowitz-color'
 
 The following are all methods that <code>Color</code> understands, and should give you an idea of what is possible.
 

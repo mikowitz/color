@@ -4,14 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "color"
+    gem.name = "mikowitz-color"
     gem.summary = %Q{A small gem to provide colored/styled output in the terminal.}
     gem.description = %Q{A simple, flexible gem that provides an open-ended API to print colored and styled output in a terminal.}
     gem.email = "michael.berkowitz@gmail.com"
     gem.homepage = "http://github.com/mikowitz/color"
     gem.authors = ["Michael Berkowitz"]
-    gem.add_development_dependency "rspec"
-    gem.add_development_dependency "yard"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
